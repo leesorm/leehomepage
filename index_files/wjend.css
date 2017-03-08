@@ -1,0 +1,400 @@
+body, input, textarea, select {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+body, h1, h2, h3, h4, p, ul, ol, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+ul, ol, li {
+	padding-left: 0;
+	list-style-type: none;
+}
+input, textarea, select {
+	outline: none;
+	vertical-align: bottom;
+}
+img {
+	border: none;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	color: #434a5d;
+	display: block;
+}
+label {
+	cursor: pointer;
+	display: inline-block;
+}
+body, input, button, select, textarea, th, td {
+	color: #666666;
+	font-size: 14px;
+	line-height: 1.4;
+}
+body {
+	background: #EFEFEF;
+}
+body {
+	scrollbar-face-color: efefef;
+	scrollbar-track-color: efefef;
+	scrollbar-arrow-color: 4c4c4c;
+	scrollbar-shadow-color: efefef;
+	scrollbar-dark-shadow-color: efefef;
+	scrollbar-3dlight-color: efefef;
+	scrollbar-highlight-color: efefef;
+}
+.tc {
+	text-align: center;
+}
+h4 {
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+	font-family: inherit;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0;
+	text-rendering: optimizelegibility;
+}
+
+/**********wjcontent***********/
+.wjContent {
+	width: 814px;
+	min-height: 200px;
+	background: #fff;
+	margin: 0px auto 10px auto;
+	border: 1px #dbdbdb solid;
+}
+.wjContent p {
+	color: #4c4c4fc;
+}
+.conthank, .consorry {
+	margin: 80px 60px;
+	text-align: center;
+}
+.conthank p, .consorry p {
+	font-size: 16px;
+}
+.noteinfo {
+	padding: 30px 40px
+}
+
+/*.consorry {
+	text-align:center;
+	margin:80px auto;
+	text-align:center
+}*/
+.conend {
+	text-align: center;
+	margin: 80px auto;
+	color: red;
+}
+.constop {
+	text-align: center;
+	margin: 80px auto;
+	color: red;
+}
+.advert {
+	width: 816px;
+	height: 236px;
+	background: url(/static/images/idiaoyansample.png) no-repeat;
+	margin: 0px auto 20px auto;
+	position: relative;
+}
+.btn {
+	width: 161px;
+	height: 45px;
+	position: absolute;
+	right: 328px;
+	bottom: 63px;
+}
+
+/*******foot********/
+.footer_mini {
+	color: #828282;
+	font-size: 12px;
+	min-height: 100px;
+	margin-top: 6px;
+	width: 100%;
+	min-width: 990px;
+}
+.footer {
+	width: 983px;
+	margin: 0 auto;
+	padding-top: 10px
+}
+.ma_auto {
+	float: none !important;
+	margin: 0 auto;
+	width: 97px;/*135px*/
+}
+.instructions {
+	float: left;
+	width: 100%;
+	color: #999999;
+	margin: 0;
+	text-align: center;
+}
+
+/*.instructions div{float:left;}	*/
+.wjtext {
+	margin-top: 5px;
+	text-align: center;
+}
+.wjtext a {
+	color: #4C8EFA;
+	margin: 0 2px;
+	display: inline-block;
+	*display: inline;	/*text-decoration: underline;*/
+}
+.wjimg {
+	background: url(/static/images/wenjuan_logo_mini.png) no-repeat;
+	width: 45px;
+	height: 29px;
+	margin-left: 5px;
+}
+.conerror {
+	width: 470px;
+	text-align: center;
+	margin: 50px auto 50px auto;
+}
+.conerror h2 {
+	font-size: 21px;
+	text-align: center;
+	margin: 20px 0;
+}
+.conerror .error_text {
+	margin: 40px 0 50px 0;
+	text-align: left;
+}
+
+/*-------------按钮----------------------*/
+.WJButton {
+	font-weight: normal;
+	display: inline-block;
+	_zoom: 1;
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: normal;
+	padding: .5em 1.5em .5em;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+}
+.prevButton {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #ccc;
+	margin-right: 10px;
+}
+.prevButton:hover {
+	opacity: .6;
+}
+.open_results {
+	display: inline-block;
+	border-radius: 8px;
+	padding: 10px 2em;
+	background: #85c8ff;
+	color: #ffffff;
+}
+.show_results {
+	margin: 10px 0;
+	padding-top: 30px;
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+.submitTimer {
+	width: 120px;
+	height: 73px;
+	padding: 1px 4px;
+	position: fixed;
+	left: 50%;
+	margin-left: 460px;
+	top: 60px;
+	z-index: 100;
+	background: url(/static/images/timer1.png) no-repeat center center;
+}
+.submitTimer p.prompt {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+	font-size: 14px;
+	color: #5c5c5c;
+}
+.submitTimer #submitTimer {
+	font-size: 20px;
+	text-align: center;
+	line-height: 39px;
+	height: 39px;
+	overflow: hidden;
+	font-family: arial;
+	color: #7acc5a;
+}
+.submitTimer.only {
+	background: url(/static/images/timer2.png) no-repeat center center;
+}
+.submitTimer.only #submitTimer {
+	color: #f97c7c;
+}
+
+/*************envelope start***************/
+.envelope_draw {
+	width: 500px;
+	margin: 15px auto 0;
+	text-align: center;
+}
+.envelope_draw .go_draw_btn{display: inline-block; width: 115px;height: 36px; line-height: 36px; text-align: center; background: #ffa939; color: #fff; border-radius: 2px; overflow: hidden; font-size: 14px;margin: 10px auto;}
+.envelope_draw .red_box {
+	background: url(/static/images/envelope_draw/red_box.png) 0 0 no-repeat;
+	width: 177px;
+	height: 206px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.envelope_draw span.go_draw_btn_box {
+	display: block;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: url(/static/images/plugin_center/envelope_draw_box_span.png) no-repeat center;
+}
+.envelope_draw_layer .show_smallWrap {
+    width: 440px;
+    height: 392px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -220px;
+    margin-top: -196px;
+    z-index: 9999901;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid ##a4a4a4;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.envelope_draw_layer .show_smaller {
+	height: 210px;
+}
+.show_smallWrap .head_title {
+    min-width: 400px;
+    padding: 0 20px;
+    line-height: 51px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    text-align: left;
+}
+.show_smallWrap .head_title p {
+    font-size: 16px;
+}
+.envelope_draw_layer .show_smallWrap .head_title .small_close {
+    position: absolute;
+    right: 24px;
+    top: 17px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url('/static/images/plugin_center/close.png');
+    cursor: pointer;
+}
+.envelope_draw_layer .show_smallWrap .head_title .small_close:hover {
+    background: url('/static/images/plugin_center/close_hover.png');
+}
+.envelope_draw_layer .small_wrap {
+	padding: 20px;
+	text-align: center;
+}
+.envelope_draw_layer .show_smaller .small_wrap{
+	text-align: left;
+}
+.envelope_draw_layer .small_wrap p {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.envelope_draw_layer .small_wrap .red_code {
+	margin-top: 15px;
+}
+.envelope_draw_layer .btn_wrap {
+    padding: 40px 0px 0;
+    overflow: auto;
+    line-height: 36px;
+}
+.envelope_draw_layer .btn_default {
+    display: block;
+    width: 115px;
+    height: 36px;
+    background: #55a3f5;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 3px;
+}
+.envelope_draw_layer .btn_default:hover {
+    background: #4b93db;
+}
+.envelope_draw_layer .btn_none {
+    float: right;
+    width: 80px;
+}
+
+.btn_primary {
+	color: #53a4f4;
+}
+.btn_gray {
+	color: #5c5c5c;
+}
+.text_gray {
+	color: #9c9c9c;
+}
+.text_pink {
+	color: #f97c7c;
+}
+.big_size {
+	font-size: 24px;
+}
+/*************envelope end***************/
+
+/* CSS Document */
+.c_mark { width: 100%; height: 100%; background: #000; opacity: 0.7; filter:alpha(opacity:70); position: fixed; left: 0; top: 0; z-index: 9999900;}
+.c_hover_tip { font-size: 14px; position: absolute; padding: 0 12px; line-height: 29px; background: url(/static/images/plugin_center/bg_70.png); border-radius: 5px; color: #fff;}
+.submitTimer{width: 120px; height: 73px; padding: 1px 4px; position: fixed; left: 50%; margin-left: 460px; top: 60px; z-index: 100;background: url(/static/images/timer1.png) no-repeat center center;}
+.submitTimer p.prompt{ height: 30px; line-height: 30px; text-align: center;border-bottom: 1px solid #dbdbdb;font-size: 14px; color: #5c5c5c;}
+.submitTimer #submitTimer{ font-size: 20px;  text-align: center;line-height: 39px;height: 39px; overflow: hidden; font-family: arial;color: #7acc5a;}
+.submitTimer.only{background: url(/static/images/timer2.png) no-repeat center center;}
+.submitTimer.only #submitTimer{color: #f97c7c;}
+
+#gt{width: 300px; background: #fff; border-radius: 5px; margin: 0 auto; position: fixed; left: 50%; top: 50%;margin-left: -171px; margin-top: -135px; z-index: 999;border:1px solid #dbdbdb; padding: 20px 20px 20px 20px;}
+#gt p.bt{margin-bottom: 13px; font-size: 16px; text-align: center;}
+.sms_yzm{padding-top: 10px;overflow: hidden; padding-left: 5px;}
+.sms_yzm .code{padding: 0 5px; line-height: 27px; height: 27px!important; border:1px solid #e2e2e2; width: 164px;float: left;}
+.sms_yzm .hq{float: left;margin-left: 12px;height: 29px; line-height: 27px; width: 120px; text-align: center; position: relative; font-size: 14px;color: #5c5c5c;}
+.sms_yzm .hq a{display: block;position: absolute; width: 100%; left: 0px; top: 0px; z-index: 1; color: #ffffff; background: #53a4f4; border: solid 1px #53a4f4; border-radius: 4px;}
+.sms_yzm .hq .btn_send_code.btn_disabled{ background: #aaaaaa; border-color: #aaaaaa;}
+.sms_yzm .hq span{display: none;position:absolute;width: 100%; color: #ffffff; left: 0px;top: 0px; z-index: 2; background: #aaaaaa; border: solid 1px #aaaaaa; border-radius: 4px;}
+.sms_yzm .hq span i{font-style: normal;}
+.sms_yzm span.yz{display:none; float: left; line-height: 29px; margin-left: 13px;background: url(/static/images/icon/yz_sucess.png) no-repeat left center;color: #7acc5a; padding-left:23px;}
+.wjContent{position: relative;}
+.end_create_btn{display: inline-block; margin-top: 30px; font-size: 14px; left: 50%; height: 44px; line-height: 44px; padding: 0 30px; border:1px solid #53a4f4; color: #53a4f4; text-decoration: none; border-radius: 3px; overflow: hidden;}
+.bdshare-button-style0-24 a, .bdshare-button-style0-24 .bds_more{ background-image: url('/static/images/share_icon.png') !important;}
+.bdshare-button-style0-24 .bds_weixin{ background-position: 0 0 !important;}
+.bdshare-button-style0-24 .bds_sqq{ background-position: 0 -48px !important;}
+.bdshare-button-style0-24 .bds_more{ background-position: 0 -72px !important;}
+.bdshare-button-style0-24 .bds_qzone{ background-position: 0 -120px !important;}
+
+/*螺丝帽*/
+.lsm_bg {width: 100%;height: 100%;position: fixed;background: url(/static/images/icon/bg_20.png);z-index: 1000;left: 0;top: 0;display: none;}
+.lsm_bg .lsm_title {width: 300px; height: 160px;line-height: 199px;position: fixed;text-align: center;padding-bottom: 84px;left: 50%;top: 50%;margin-left: -150px;margin-top: -122px;z-index: 1001;background: #fff;}
+#lsm-captcha {position: fixed; z-index: 1003; left: 50%; top: 50%; margin-left: -151px; margin-top: 78px; z-index: 1003; }

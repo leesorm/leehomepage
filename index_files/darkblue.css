@@ -1,0 +1,38 @@
+.wjhr {
+	width:100%;
+	height:3px;
+	background-color:#53a4f4;/*分割线样式*/
+}
+
+.wj_color {
+	color: #F7F7F7;
+	background: #53a4f4;/*按钮样式*/
+}
+.wj_color:hover {
+	background: #418ecf;/*按钮悬浮样式*/
+}
+
+.wj_disable {
+	color: #707070;
+	background: #8fc9f4 !important;/*倒计时禁用按钮样式*/
+	cursor:default !important;
+}
+.wj_disable:hover {
+	background: #8fc9f4 !important;/*倒计时禁用按钮悬浮样式*/
+}
+
+.wjprogress span {
+    color: #55a1e3;
+}
+.bar {
+    width:208px;
+    height:7px;
+    border:1px #55a1e3 solid;
+    text-align:left;
+    font-size:0;
+}
+.barbox {
+    width:20%;
+    background-color:#55a1e3;/*进度条样式*/
+    height: 7px;
+}
